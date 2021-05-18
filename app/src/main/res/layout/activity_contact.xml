@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4E7A51"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/jomnu"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="1dp"
+                    android:adjustViewBounds="false"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/john" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="@string/myName"
+                    android:textAlignment="center"
+                    android:textColor="#FFEB3B"
+                    android:textSize="14sp"
+                    tools:ignore="SmallSp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/HOME"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#AE7070"
+                android:text="@string/home"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/US"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:background="#9C5A5A"
+                android:text="@string/contact_us"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/ABOUT"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:background="#873636"
+                android:text="@string/about_us"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
