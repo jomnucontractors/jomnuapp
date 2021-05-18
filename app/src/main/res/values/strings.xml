@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">jomnu contractors</string>
+    <string name="jomnu">JOMNU CONTRACTORS LIMITED</string>
+    <string name="name">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="enter">ENTER</string>
+    <string name="civil">CIVIL ENGINEERING</string>
+    <string name="archi">ARCHITECHURAL DRAWINGS</string>
+    <string name="robotics">ROBOTICS</string>
+    <string name="web">WEB DESIGINING</string>
+    <string name="android_studio">ANDROID STUDIO</string>
+    <string name="windows_server">WINDOWS SERVER</string>
+    <string name="myName">John Mwangi Nuthu</string>
+    <string name="home">HOME</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="about_us">ABOUT US</string>
+</resources>
